@@ -1,4 +1,4 @@
-# Local Data Stealer
+# Local Data Stealer (with Digispark ATTiny85)
 A simple script to steal data from a local system using a Digispark + Powershell. Usefull if you have physical access to the machine (Windows only).
 
 Use this script at your own risk. The author assumes no responsibility for any illegal or improper use of the code.
